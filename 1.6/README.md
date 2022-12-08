@@ -28,3 +28,12 @@
 
 
 ```
+
+/**
+* 전달된 파라미터에 맞게 난수를 생성한다
+* @param len : 생성할 난수의 길이
+* @param dupCd : 중복 허용 여부 (1: 중복허용, 2:중복제거)
+*
+* Created by 닢향
+* http://niphyang.tistory.com
+*/

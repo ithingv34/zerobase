@@ -29,3 +29,9 @@
 복지카드 여부를 입력해 주세요.(y/n):n
 입장료: 8000
 ```
+
+TODO
+예외처리
+
+https://loveiskey.tistory.com/33
+
