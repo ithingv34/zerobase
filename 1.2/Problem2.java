@@ -1,5 +1,10 @@
 import java.util.Scanner;
-
+/**
+ * zerobase
+ * 과제2: 결제 금액 캐시백 계산 프로그램
+ * 작성자: 이상훈 (ithingv34)
+ * 날짜: 2022/12/12
+ */
 public class Problem2 {
     public static void main(String[] args) {
 

@@ -1,6 +1,15 @@
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * zerobase
+ * 과제 4: 주민등록번호 생성 프로그램
+ * 작성자: 이상훈 (ithingv34)
+ * 날짜: 2022/12/12
+ *
+ * 특이사항: 주민번호의 앞자리는 보통 6자리로 YYMMDD 이지만 문제에 나온 콘솔화면의 결과에 맞춰 YYYYMMDD로 출력하였습니다.
+ */
+
 public class Problem4 {
     public static void main(String[] args) {
 

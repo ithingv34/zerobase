@@ -1,7 +1,12 @@
 // 놀이동산 입장권 계산 프로그램
 
 import java.util.Scanner;
-
+/**
+ * zerobase
+ * 과제3: 놀이동산 입장권 계산 프로그램
+ * 작성자: 이상훈 (ithingv34)
+ * 날짜: 2022/12/12
+ */
 public class Problem3 {
     public static void main(String[] args) {
 

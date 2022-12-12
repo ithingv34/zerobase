@@ -1,6 +1,11 @@
 import java.util.HashMap;
 import java.util.Random;
-
+/**
+ * zerobase
+ * 과제6: 가상 대선 당선 시뮬레이션 프로그램
+ * 작성자: 이상훈 (ithingv34)
+ * 날짜: 2022/12/12
+ */
 public class Problem6 {
 
     public static HashMap<String, Integer> getMap(String name, int voteCnt) {

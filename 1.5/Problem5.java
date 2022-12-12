@@ -1,6 +1,11 @@
 import java.util.Calendar;
 import java.util.Scanner;
-
+/**
+ * zerobase
+ * 과제5: 달력 출력 프로그램
+ * 작성자: 이상훈 (ithingv34)
+ * 날짜: 2022/12/12
+ */
 public class Problem5 {
 
     public static void main(String[] args) {
@@ -14,7 +19,7 @@ public class Problem5 {
         System.out.printf("달력의 월을 입력해 주세요.(mm):");
         int month = sc.nextInt();
 
-        printCalendar(year, month);
+        printCalendar(year, month); // 달력 출력
     }
 
     private static void printCalendar(int year, int month) {
