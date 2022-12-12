@@ -28,19 +28,20 @@ public class Problem5 {
         System.out.printf("\n\n[%d년 %02d월]\n",year, month);
         System.out.printf("일\t월\t화\t수\t목\t금\t토\n");
 
-        cal.set(year, month -1 , 1);
+        cal.set(year, month - 1 , 1); // calander의 시작날짜 설정 (calander는 month가 0부터 시작)
 
-        int start = cal.get(Calendar.DAY_OF_WEEK);
+        int startDayOfWeek = cal.get(Calendar.DAY_OF_WEEK);
+        int endDay = cal.getActualMaximum(Calendar.DATE);
 
-        for (int i = 1; i < start; i++) {
+        for (int i = 1; i < startDayOfWeek; i++) {
             System.out.print("\t");
         }
-        for (int i = 1; i <= cal.getActualMaximum(Calendar.DATE); i++) {
+        for (int i = 1; i <= endDay; i++) {
             System.out.printf("%02d\t", i);
-            if (start % 7 == 0) {
+            if (startDayOfWeek % 7 == 0) {
                 System.out.println();
             }
-            start++;
+            startDayOfWeek++;
         }
     }
 }
