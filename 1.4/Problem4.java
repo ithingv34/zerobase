@@ -23,16 +23,16 @@ public class Problem4 {
         System.out.print("성별을 입력해 주세요.(m/f):");
         char gender = sc.next().charAt(0);
 
-        String frontNum = birthYear + birthMonth + birthDay;
-        String backNum = getResidentialNum(birthYear, birthMonth, birthDay, gender);
+        String frontNum = birthYear + birthMonth + birthDay; // 주민번호 앞번호
+        String backNum = getResidentialNum(birthYear, birthMonth, birthDay, gender); // 주민번호 뒷번호
 
-        System.out.println(frontNum + "-" + backNum);
+        System.out.println(frontNum + "-" + backNum); // 주민번호 출력
     }
 
     private static String getResidentialNum(String birthYear, String birthMonth, String birthDay, char gender) {
 
-        char seventhNum = getSeventhNum(birthYear, gender);
-        String randomNum = getRandomNum();
+        char seventhNum = getSeventhNum(birthYear, gender); // 성별, 외국인 유무에 의한 뒷자리 첫번째 번호
+        String randomNum = getRandomNum(); // 나머지 6자리 랜덤번호 생성
 
         return seventhNum + randomNum;
     }

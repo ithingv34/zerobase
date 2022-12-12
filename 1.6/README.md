@@ -37,3 +37,6 @@
 * Created by 닢향
 * http://niphyang.tistory.com
 */
+* 
+* Java에서 HashMap을 위한 Custom Key 정의하기
+  http://www.gisdeveloper.co.kr/?p=5332
